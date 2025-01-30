@@ -1,15 +1,22 @@
 *{
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    src: url("fonts/SourGummy-Regular.otf") format("opentype");
     text-transform: capitalize;
     text-decoration: none;
 }
+
+
 
 body {
     min-height: 100vh;
     background: url(download\ \(1\).jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: "Sour Gummy", serif;
+    
+    font-weight: 400;
+    font-style:oblique;
+    font-variation-settings:"wdth" 100;
 }
 
 header {    
